@@ -80,6 +80,23 @@
     align-items: center;
   }
 
+  /* Popular website image */
+  .website{
+    max-width: 1350px;
+    margin-top: 50px;
+  }
+
+  .websites-img{
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .websites-img img{
+    margin: auto;
+  }
+
 
   /* Small device */
   @media screen and (max-width: 576px) {
@@ -104,6 +121,15 @@
 
     .camera-img img{
       width: 100%;
+    }
+
+    .websites-img{
+      grid-template-columns: repeat(3, 1fr);
+      
+    }
+
+    .websites-img img{
+      margin-bottom: 20px;
     }
   }
 
