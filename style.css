@@ -172,6 +172,31 @@
       margin: 0;
     }
 
+    /* footer style */
+    footer{
+      background-color: black;
+      margin-top: 40px;
+      padding: 30px;
+    }
+
+    .footer-div{
+      max-width: 265px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .footer-title{
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #FFFFFF;
+    }
+
+    .footer-description{
+      font-size: 0.87rem;
+      font-weight: 600;
+      color: white;
+    }
+
   /* Small device */
   @media screen and (max-width: 576px) {
     .navbar,
