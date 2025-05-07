@@ -83,7 +83,9 @@
   .website{
     max-width: 1350px;
     margin-top: 50px;
-    border: 1px solid rgb(217, 210, 210);
+    padding: 25px;
+      border-radius: 6px;
+    box-shadow: 0 3px 25px 0 rgb(0, 0, 0, 0.06);
   }
 
   .websites-img{
@@ -101,6 +103,25 @@
     .popular-collection{
       max-width: 1050px;
       margin: 100px auto;
+      text-align: center;
+    }
+
+    .popular-title{
+      font-size: 1.75rem;
+      font-weight: 600;
+    }
+
+    .popular-cards{
+      gap: 20px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 50px auto;
+    }
+
+    .popular-card{
+      padding: 15px;
+      border-radius: 6px;
+      box-shadow: 0 3px 25px 0 rgb(0, 0, 0, 0.06);
     }
 
 
