@@ -155,12 +155,30 @@
       font-weight: 600;
     }
 
+    .checked{
+      color: orange;
+    }
+
+    /* Featured products at one place */
+    .featured-products{
+      max-width: 1110px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      
+    }
+
+    .product-title{
+      font-size: 2.38rem;
+      font-weight: 700;
+      margin: 0;
+    }
 
   /* Small device */
   @media screen and (max-width: 576px) {
     .navbar,
     .journey,
-    .camera-img
+    .camera-img,
+    .popular-collection
     {
       flex-direction: column;
     }
@@ -199,5 +217,11 @@
       gap: 20px;
     }
 
+    .popular-cards,
+    .featured-products
+    {
+      grid-template-columns: 1fr;
+    }
+    
   }
 
