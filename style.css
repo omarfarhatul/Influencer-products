@@ -103,6 +103,9 @@
     .popular-collection{
       max-width: 1050px;
       margin: 100px auto;
+    }
+
+    .popular-collection h3{
       text-align: center;
     }
 
@@ -122,6 +125,34 @@
       padding: 15px;
       border-radius: 6px;
       box-shadow: 0 3px 25px 0 rgb(0, 0, 0, 0.06);
+    }
+
+    .card-name{
+      font-size: 1.75rem;
+      font-weight: 500;
+      margin: 10px auto;
+    }
+
+    .card-price{
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin: auto;
+    }
+
+    .rating{
+      margin: 10px auto;
+    }
+
+    .card-description{
+      font-size: 0.88rem;
+      font-weight: 500;
+      margin: auto;
+    }
+
+    .see-more-btn{
+      border: none;
+      color: #E02C6D;
+      font-weight: 600;
     }
 
 
