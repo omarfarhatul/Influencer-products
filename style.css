@@ -172,6 +172,11 @@
       margin: 0;
     }
 
+    .footer-social{
+      color: white;
+      
+    }
+
     /* footer style */
     footer{
       background-color: black;
@@ -263,6 +268,20 @@
 
     .product-title{
       font-size: 2.2rem;
+    }
+  }
+
+  /* Medium device */
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+    .popular-cards
+    {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .featured-products{
+      grid-template-columns: 1fr;
+      justify-items: center;
+      text-align: center;
     }
   }
 
